@@ -1,6 +1,5 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: pages-themes/minimal
 plugins:
   - jekyll-remote-theme
 title: Dipak Boyed
 description: Engineering Leader | AI Platforms | Microsoft
-classes: wide

@@ -1,14 +1,14 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+@import "minimal";
 
-.page__content {
-  max-width: 100% !important;
+.container {
+  max-width: 95%;
+  width: 95%;
 }
 
-.page {
-  max-width: 100% !important;
-  padding-right: 0;
+section {
+  max-width: 100%;
+  width: 100%;
 }
