@@ -1,0 +1,652 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fpages-themes
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - img "@pages-themes" [ref=e67]
+          - generic [ref=e68]:
+            - heading "GitHub Pages themes" [level=1] [ref=e69]
+            - list [ref=e70]:
+              - listitem [ref=e71]:
+                - group [ref=e72]:
+                  - generic "Verified" [ref=e73] [cursor=pointer]
+              - listitem
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - img [ref=e77]
+                - link "712 followers" [ref=e79] [cursor=pointer]:
+                  - /url: /orgs/pages-themes/followers
+              - listitem [ref=e80]:
+                - img [ref=e81]
+                - link "https://pages.github.com" [ref=e83] [cursor=pointer]:
+                  - /url: https://pages.github.com
+              - listitem [ref=e84]:
+                - img [ref=e85]
+                - link "support@github.com" [ref=e87] [cursor=pointer]:
+                  - /url: mailto:support@github.com
+        - navigation "Organization" [ref=e89]:
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Overview" [ref=e93] [cursor=pointer]:
+                - /url: /pages-themes
+                - img [ref=e94]
+                - text: Overview
+            - listitem [ref=e96]:
+              - link "Repositories 14" [ref=e97] [cursor=pointer]:
+                - /url: /orgs/pages-themes/repositories
+                - img [ref=e98]
+                - text: Repositories
+                - generic "Not available" [ref=e100]: "14"
+            - listitem [ref=e101]:
+              - link "Projects" [ref=e102] [cursor=pointer]:
+                - /url: /orgs/pages-themes/projects
+                - img [ref=e103]
+                - text: Projects
+            - listitem [ref=e105]:
+              - link "Packages" [ref=e106] [cursor=pointer]:
+                - /url: /orgs/pages-themes/packages
+                - img [ref=e107]
+                - text: Packages
+            - listitem [ref=e109]:
+              - link "People" [ref=e110] [cursor=pointer]:
+                - /url: /orgs/pages-themes/people
+                - img [ref=e111]
+                - text: People
+      - generic [ref=e114]:
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading "Popular repositories Loading" [level=2] [ref=e119]:
+              - text: Popular repositories
+              - generic [ref=e120]: Loading
+              - status
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - link "minimal" [ref=e127] [cursor=pointer]:
+                      - /url: /pages-themes/minimal
+                    - generic [ref=e129]: Public
+                  - paragraph [ref=e130]: Minimal is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e131]:
+                    - generic [ref=e132]: SCSS
+                    - link "stars 1.8k" [ref=e134] [cursor=pointer]:
+                      - /url: /pages-themes/minimal/stargazers
+                      - img "stars" [ref=e135]
+                      - text: 1.8k
+                    - link "forks 6.4k" [ref=e137] [cursor=pointer]:
+                      - /url: /pages-themes/minimal/forks
+                      - img "forks" [ref=e138]
+                      - text: 6.4k
+              - listitem [ref=e140]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - link "cayman" [ref=e145] [cursor=pointer]:
+                      - /url: /pages-themes/cayman
+                    - generic [ref=e147]: Public
+                  - paragraph [ref=e148]: Cayman is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e149]:
+                    - generic [ref=e150]: SCSS
+                    - link "stars 1.3k" [ref=e152] [cursor=pointer]:
+                      - /url: /pages-themes/cayman/stargazers
+                      - img "stars" [ref=e153]
+                      - text: 1.3k
+                    - link "forks 3.3k" [ref=e155] [cursor=pointer]:
+                      - /url: /pages-themes/cayman/forks
+                      - img "forks" [ref=e156]
+                      - text: 3.3k
+              - listitem [ref=e158]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - link "hacker" [ref=e163] [cursor=pointer]:
+                      - /url: /pages-themes/hacker
+                    - generic [ref=e165]: Public
+                  - paragraph [ref=e166]: Hacker is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e167]:
+                    - generic [ref=e168]: SCSS
+                    - link "stars 1.2k" [ref=e170] [cursor=pointer]:
+                      - /url: /pages-themes/hacker/stargazers
+                      - img "stars" [ref=e171]
+                      - text: 1.2k
+                    - link "forks 1.3k" [ref=e173] [cursor=pointer]:
+                      - /url: /pages-themes/hacker/forks
+                      - img "forks" [ref=e174]
+                      - text: 1.3k
+              - listitem [ref=e176]:
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - link "architect" [ref=e181] [cursor=pointer]:
+                      - /url: /pages-themes/architect
+                    - generic [ref=e183]: Public
+                  - paragraph [ref=e184]: Architect is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e185]:
+                    - generic [ref=e186]: SCSS
+                    - link "stars 372" [ref=e188] [cursor=pointer]:
+                      - /url: /pages-themes/architect/stargazers
+                      - img "stars" [ref=e189]
+                      - text: "372"
+                    - link "forks 923" [ref=e191] [cursor=pointer]:
+                      - /url: /pages-themes/architect/forks
+                      - img "forks" [ref=e192]
+                      - text: "923"
+              - listitem [ref=e194]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - link "midnight" [ref=e199] [cursor=pointer]:
+                      - /url: /pages-themes/midnight
+                    - generic [ref=e201]: Public
+                  - paragraph [ref=e202]: Midnight is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e203]:
+                    - generic [ref=e204]: JavaScript
+                    - link "stars 344" [ref=e206] [cursor=pointer]:
+                      - /url: /pages-themes/midnight/stargazers
+                      - img "stars" [ref=e207]
+                      - text: "344"
+                    - link "forks 592" [ref=e209] [cursor=pointer]:
+                      - /url: /pages-themes/midnight/forks
+                      - img "forks" [ref=e210]
+                      - text: "592"
+              - listitem [ref=e212]:
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - link "slate" [ref=e217] [cursor=pointer]:
+                      - /url: /pages-themes/slate
+                    - generic [ref=e219]: Public
+                  - paragraph [ref=e220]: Slate is a Jekyll theme for GitHub Pages
+                  - paragraph [ref=e221]:
+                    - generic [ref=e222]: SCSS
+                    - link "stars 326" [ref=e224] [cursor=pointer]:
+                      - /url: /pages-themes/slate/stargazers
+                      - img "stars" [ref=e225]
+                      - text: "326"
+                    - link "forks 984" [ref=e227] [cursor=pointer]:
+                      - /url: /pages-themes/slate/forks
+                      - img "forks" [ref=e228]
+                      - text: "984"
+          - generic [ref=e231]:
+            - heading "Repositories" [level=3] [ref=e232]:
+              - img [ref=e233]
+              - text: Repositories
+            - search [ref=e237]:
+              - generic [ref=e238]:
+                - generic [ref=e239]:
+                  - searchbox "Find a repository…" [ref=e240]
+                  - img [ref=e241]
+                  - generic [ref=e243]: Loading
+                - generic [ref=e244]:
+                  - group [ref=e245]:
+                    - button "Type" [ref=e246] [cursor=pointer]: Type
+                  - group [ref=e248]:
+                    - button "Language" [ref=e249] [cursor=pointer]: Language
+                  - group [ref=e251]:
+                    - button "Sort" [ref=e252] [cursor=pointer]: Sort
+            - generic [ref=e255]:
+              - generic [ref=e256]: Showing 10 of 14 repositories
+              - generic [ref=e257]:
+                - list [ref=e258]:
+                  - listitem [ref=e259]:
+                    - generic [ref=e260]:
+                      - generic [ref=e261]:
+                        - generic [ref=e262]:
+                          - link "primer" [ref=e263] [cursor=pointer]:
+                            - /url: /pages-themes/primer
+                          - 'generic "Label: Public" [ref=e264]': Public
+                          - paragraph [ref=e265]: Primer is a Jekyll theme for GitHub Pages
+                        - generic [ref=e266]:
+                          - link "pages-themes/primer’s past year of commit activity":
+                            - /url: /pages-themes/primer/graphs/commit-activity
+                          - link [ref=e268] [cursor=pointer]:
+                            - /url: /pages-themes/primer/graphs/commit-activity
+                            - img [ref=e269]
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: SCSS
+                        - link "290 stars" [ref=e275] [cursor=pointer]:
+                          - /url: /pages-themes/primer/stargazers
+                          - img [ref=e276]
+                          - text: "290"
+                        - generic [ref=e278]:
+                          - img [ref=e279]
+                          - text: MIT
+                        - link "273 forks" [ref=e281] [cursor=pointer]:
+                          - /url: /pages-themes/primer/forks
+                          - img [ref=e282]
+                          - text: "273"
+                        - link "17 issues" [ref=e284] [cursor=pointer]:
+                          - /url: /pages-themes/primer/issues
+                          - img [ref=e285]
+                          - text: "17"
+                        - link "21 pull requests" [ref=e288] [cursor=pointer]:
+                          - /url: /pages-themes/primer/pulls
+                          - img [ref=e289]
+                          - text: "21"
+                        - generic [ref=e291]: Updated Oct 3, 2025on Oct 3, 2025
+                  - listitem [ref=e292]:
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - generic [ref=e295]:
+                          - link "slate" [ref=e296] [cursor=pointer]:
+                            - /url: /pages-themes/slate
+                          - 'generic "Label: Public" [ref=e297]': Public
+                          - paragraph [ref=e298]: Slate is a Jekyll theme for GitHub Pages
+                        - generic [ref=e299]:
+                          - link "pages-themes/slate’s past year of commit activity":
+                            - /url: /pages-themes/slate/graphs/commit-activity
+                          - link [ref=e301] [cursor=pointer]:
+                            - /url: /pages-themes/slate/graphs/commit-activity
+                            - img [ref=e302]
+                      - generic [ref=e305]:
+                        - generic [ref=e306]: SCSS
+                        - link "326 stars" [ref=e308] [cursor=pointer]:
+                          - /url: /pages-themes/slate/stargazers
+                          - img [ref=e309]
+                          - text: "326"
+                        - generic [ref=e311]:
+                          - img [ref=e312]
+                          - text: CC0-1.0
+                        - link "984 forks" [ref=e314] [cursor=pointer]:
+                          - /url: /pages-themes/slate/forks
+                          - img [ref=e315]
+                          - text: "984"
+                        - link "16 issues" [ref=e317] [cursor=pointer]:
+                          - /url: /pages-themes/slate/issues
+                          - img [ref=e318]
+                          - text: "16"
+                        - link "22 pull requests" [ref=e321] [cursor=pointer]:
+                          - /url: /pages-themes/slate/pulls
+                          - img [ref=e322]
+                          - text: "22"
+                        - generic [ref=e324]: Updated Aug 22, 2025on Aug 22, 2025
+                  - listitem [ref=e325]:
+                    - generic [ref=e326]:
+                      - generic [ref=e327]:
+                        - generic [ref=e328]:
+                          - link "midnight" [ref=e329] [cursor=pointer]:
+                            - /url: /pages-themes/midnight
+                          - 'generic "Label: Public" [ref=e330]': Public
+                          - paragraph [ref=e331]: Midnight is a Jekyll theme for GitHub Pages
+                        - generic [ref=e332]:
+                          - link "pages-themes/midnight’s past year of commit activity":
+                            - /url: /pages-themes/midnight/graphs/commit-activity
+                          - link [ref=e334] [cursor=pointer]:
+                            - /url: /pages-themes/midnight/graphs/commit-activity
+                            - img [ref=e335]
+                      - generic [ref=e338]:
+                        - generic [ref=e339]: JavaScript
+                        - link "344 stars" [ref=e341] [cursor=pointer]:
+                          - /url: /pages-themes/midnight/stargazers
+                          - img [ref=e342]
+                          - text: "344"
+                        - generic [ref=e344]:
+                          - img [ref=e345]
+                          - text: CC0-1.0
+                        - link "592 forks" [ref=e347] [cursor=pointer]:
+                          - /url: /pages-themes/midnight/forks
+                          - img [ref=e348]
+                          - text: "592"
+                        - link "8 issues" [ref=e350] [cursor=pointer]:
+                          - /url: /pages-themes/midnight/issues
+                          - img [ref=e351]
+                          - text: "8"
+                        - link "11 pull requests" [ref=e354] [cursor=pointer]:
+                          - /url: /pages-themes/midnight/pulls
+                          - img [ref=e355]
+                          - text: "11"
+                        - generic [ref=e357]: Updated Apr 16, 2025on Apr 16, 2025
+                  - listitem [ref=e358]:
+                    - generic [ref=e359]:
+                      - generic [ref=e360]:
+                        - generic [ref=e361]:
+                          - link "minimal" [ref=e362] [cursor=pointer]:
+                            - /url: /pages-themes/minimal
+                          - 'generic "Label: Public" [ref=e363]': Public
+                          - paragraph [ref=e364]: Minimal is a Jekyll theme for GitHub Pages
+                        - generic [ref=e365]:
+                          - link "pages-themes/minimal’s past year of commit activity":
+                            - /url: /pages-themes/minimal/graphs/commit-activity
+                          - link [ref=e367] [cursor=pointer]:
+                            - /url: /pages-themes/minimal/graphs/commit-activity
+                            - img [ref=e368]
+                      - generic [ref=e371]:
+                        - generic [ref=e372]: SCSS
+                        - link "1790 stars" [ref=e374] [cursor=pointer]:
+                          - /url: /pages-themes/minimal/stargazers
+                          - img [ref=e375]
+                          - text: 1,790
+                        - generic [ref=e377]:
+                          - img [ref=e378]
+                          - text: CC0-1.0
+                        - link "6413 forks" [ref=e380] [cursor=pointer]:
+                          - /url: /pages-themes/minimal/forks
+                          - img [ref=e381]
+                          - text: 6,413
+                        - link "18 issues" [ref=e383] [cursor=pointer]:
+                          - /url: /pages-themes/minimal/issues
+                          - img [ref=e384]
+                          - text: "18"
+                        - link "161 pull requests" [ref=e387] [cursor=pointer]:
+                          - /url: /pages-themes/minimal/pulls
+                          - img [ref=e388]
+                          - text: "161"
+                        - generic [ref=e390]: Updated Aug 20, 2024on Aug 20, 2024
+                  - listitem [ref=e391]:
+                    - generic [ref=e392]:
+                      - generic [ref=e393]:
+                        - generic [ref=e394]:
+                          - link "hacker" [ref=e395] [cursor=pointer]:
+                            - /url: /pages-themes/hacker
+                          - 'generic "Label: Public" [ref=e396]': Public
+                          - paragraph [ref=e397]: Hacker is a Jekyll theme for GitHub Pages
+                        - generic [ref=e398]:
+                          - link "pages-themes/hacker’s past year of commit activity":
+                            - /url: /pages-themes/hacker/graphs/commit-activity
+                          - link [ref=e400] [cursor=pointer]:
+                            - /url: /pages-themes/hacker/graphs/commit-activity
+                            - img [ref=e401]
+                      - generic [ref=e404]:
+                        - generic [ref=e405]: SCSS
+                        - link "1159 stars" [ref=e407] [cursor=pointer]:
+                          - /url: /pages-themes/hacker/stargazers
+                          - img [ref=e408]
+                          - text: 1,159
+                        - generic [ref=e410]:
+                          - img [ref=e411]
+                          - text: CC0-1.0
+                        - link "1295 forks" [ref=e413] [cursor=pointer]:
+                          - /url: /pages-themes/hacker/forks
+                          - img [ref=e414]
+                          - text: 1,295
+                        - link "67 issues" [ref=e416] [cursor=pointer]:
+                          - /url: /pages-themes/hacker/issues
+                          - img [ref=e417]
+                          - text: "67"
+                        - link "21 pull requests" [ref=e420] [cursor=pointer]:
+                          - /url: /pages-themes/hacker/pulls
+                          - img [ref=e421]
+                          - text: "21"
+                        - generic [ref=e423]: Updated Aug 13, 2024on Aug 12, 2024
+                  - listitem [ref=e424]:
+                    - generic [ref=e425]:
+                      - generic [ref=e426]:
+                        - generic [ref=e427]:
+                          - link "architect" [ref=e428] [cursor=pointer]:
+                            - /url: /pages-themes/architect
+                          - 'generic "Label: Public" [ref=e429]': Public
+                          - paragraph [ref=e430]: Architect is a Jekyll theme for GitHub Pages
+                        - generic [ref=e431]:
+                          - link "pages-themes/architect’s past year of commit activity":
+                            - /url: /pages-themes/architect/graphs/commit-activity
+                          - link [ref=e433] [cursor=pointer]:
+                            - /url: /pages-themes/architect/graphs/commit-activity
+                            - img [ref=e434]
+                      - generic [ref=e437]:
+                        - generic [ref=e438]: SCSS
+                        - link "372 stars" [ref=e440] [cursor=pointer]:
+                          - /url: /pages-themes/architect/stargazers
+                          - img [ref=e441]
+                          - text: "372"
+                        - generic [ref=e443]:
+                          - img [ref=e444]
+                          - text: CC0-1.0
+                        - link "923 forks" [ref=e446] [cursor=pointer]:
+                          - /url: /pages-themes/architect/forks
+                          - img [ref=e447]
+                          - text: "923"
+                        - link "9 issues" [ref=e449] [cursor=pointer]:
+                          - /url: /pages-themes/architect/issues
+                          - img [ref=e450]
+                          - text: "9"
+                        - link "18 pull requests" [ref=e453] [cursor=pointer]:
+                          - /url: /pages-themes/architect/pulls
+                          - img [ref=e454]
+                          - text: "18"
+                        - generic [ref=e456]: Updated Aug 5, 2024on Aug 5, 2024
+                  - listitem [ref=e457]:
+                    - generic [ref=e458]:
+                      - generic [ref=e459]:
+                        - generic [ref=e460]:
+                          - link "cayman" [ref=e461] [cursor=pointer]:
+                            - /url: /pages-themes/cayman
+                          - 'generic "Label: Public" [ref=e462]': Public
+                          - paragraph [ref=e463]: Cayman is a Jekyll theme for GitHub Pages
+                        - generic [ref=e464]:
+                          - link "pages-themes/cayman’s past year of commit activity":
+                            - /url: /pages-themes/cayman/graphs/commit-activity
+                          - link [ref=e466] [cursor=pointer]:
+                            - /url: /pages-themes/cayman/graphs/commit-activity
+                            - img [ref=e467]
+                      - generic [ref=e470]:
+                        - generic [ref=e471]: SCSS
+                        - link "1324 stars" [ref=e473] [cursor=pointer]:
+                          - /url: /pages-themes/cayman/stargazers
+                          - img [ref=e474]
+                          - text: 1,324
+                        - generic [ref=e476]:
+                          - img [ref=e477]
+                          - text: CC0-1.0
+                        - link "3297 forks" [ref=e479] [cursor=pointer]:
+                          - /url: /pages-themes/cayman/forks
+                          - img [ref=e480]
+                          - text: 3,297
+                        - link "23 issues" [ref=e482] [cursor=pointer]:
+                          - /url: /pages-themes/cayman/issues
+                          - img [ref=e483]
+                          - text: "23"
+                        - link "35 pull requests" [ref=e486] [cursor=pointer]:
+                          - /url: /pages-themes/cayman/pulls
+                          - img [ref=e487]
+                          - text: "35"
+                        - generic [ref=e489]: Updated Aug 2, 2024on Aug 2, 2024
+                  - listitem [ref=e490]:
+                    - generic [ref=e491]:
+                      - generic [ref=e492]:
+                        - generic [ref=e493]:
+                          - link "dinky" [ref=e494] [cursor=pointer]:
+                            - /url: /pages-themes/dinky
+                          - 'generic "Label: Public" [ref=e495]': Public
+                          - paragraph [ref=e496]: Dinky is a Jekyll theme for GitHub Pages
+                        - generic [ref=e497]:
+                          - link "pages-themes/dinky’s past year of commit activity":
+                            - /url: /pages-themes/dinky/graphs/commit-activity
+                          - link [ref=e499] [cursor=pointer]:
+                            - /url: /pages-themes/dinky/graphs/commit-activity
+                            - img [ref=e500]
+                      - generic [ref=e503]:
+                        - generic [ref=e504]: SCSS
+                        - link "147 stars" [ref=e506] [cursor=pointer]:
+                          - /url: /pages-themes/dinky/stargazers
+                          - img [ref=e507]
+                          - text: "147"
+                        - generic [ref=e509]:
+                          - img [ref=e510]
+                          - text: CC0-1.0
+                        - link "295 forks" [ref=e512] [cursor=pointer]:
+                          - /url: /pages-themes/dinky/forks
+                          - img [ref=e513]
+                          - text: "295"
+                        - link "5 issues" [ref=e515] [cursor=pointer]:
+                          - /url: /pages-themes/dinky/issues
+                          - img [ref=e516]
+                          - text: "5"
+                        - link "4 pull requests" [ref=e519] [cursor=pointer]:
+                          - /url: /pages-themes/dinky/pulls
+                          - img [ref=e520]
+                          - text: "4"
+                        - generic [ref=e522]: Updated Jun 25, 2024on Jun 25, 2024
+                  - listitem [ref=e523]:
+                    - generic [ref=e524]:
+                      - generic [ref=e525]:
+                        - generic [ref=e526]:
+                          - link "modernist" [ref=e527] [cursor=pointer]:
+                            - /url: /pages-themes/modernist
+                          - 'generic "Label: Public" [ref=e528]': Public
+                          - paragraph [ref=e529]: Modernist is a Jekyll theme for GitHub Pages
+                        - generic [ref=e530]:
+                          - link "pages-themes/modernist’s past year of commit activity":
+                            - /url: /pages-themes/modernist/graphs/commit-activity
+                          - link [ref=e532] [cursor=pointer]:
+                            - /url: /pages-themes/modernist/graphs/commit-activity
+                            - img [ref=e533]
+                      - generic [ref=e536]:
+                        - generic [ref=e537]: SCSS
+                        - link "169 stars" [ref=e539] [cursor=pointer]:
+                          - /url: /pages-themes/modernist/stargazers
+                          - img [ref=e540]
+                          - text: "169"
+                        - generic [ref=e542]:
+                          - img [ref=e543]
+                          - text: CC0-1.0
+                        - link "261 forks" [ref=e545] [cursor=pointer]:
+                          - /url: /pages-themes/modernist/forks
+                          - img [ref=e546]
+                          - text: "261"
+                        - link "5 issues" [ref=e548] [cursor=pointer]:
+                          - /url: /pages-themes/modernist/issues
+                          - img [ref=e549]
+                          - text: "5"
+                        - link "7 pull requests" [ref=e552] [cursor=pointer]:
+                          - /url: /pages-themes/modernist/pulls
+                          - img [ref=e553]
+                          - text: "7"
+                        - generic [ref=e555]: Updated Jun 7, 2024on Jun 7, 2024
+                  - listitem [ref=e556]:
+                    - generic [ref=e557]:
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - link "leap-day" [ref=e560] [cursor=pointer]:
+                            - /url: /pages-themes/leap-day
+                          - 'generic "Label: Public" [ref=e561]': Public
+                          - paragraph [ref=e562]: Leap day is a Jekyll theme for GitHub Pages
+                        - generic [ref=e563]:
+                          - link "pages-themes/leap-day’s past year of commit activity":
+                            - /url: /pages-themes/leap-day/graphs/commit-activity
+                          - link [ref=e565] [cursor=pointer]:
+                            - /url: /pages-themes/leap-day/graphs/commit-activity
+                            - img [ref=e566]
+                      - generic [ref=e569]:
+                        - generic [ref=e570]: SCSS
+                        - link "221 stars" [ref=e572] [cursor=pointer]:
+                          - /url: /pages-themes/leap-day/stargazers
+                          - img [ref=e573]
+                          - text: "221"
+                        - generic [ref=e575]:
+                          - img [ref=e576]
+                          - text: CC0-1.0
+                        - link "500 forks" [ref=e578] [cursor=pointer]:
+                          - /url: /pages-themes/leap-day/forks
+                          - img [ref=e579]
+                          - text: "500"
+                        - link "13 issues" [ref=e581] [cursor=pointer]:
+                          - /url: /pages-themes/leap-day/issues
+                          - img [ref=e582]
+                          - text: "13"
+                        - link "7 pull requests" [ref=e585] [cursor=pointer]:
+                          - /url: /pages-themes/leap-day/pulls
+                          - img [ref=e586]
+                          - text: "7"
+                        - generic [ref=e588]: Updated Jun 5, 2024on Jun 5, 2024
+                - link "View all repositories" [ref=e590] [cursor=pointer]:
+                  - /url: /orgs/pages-themes/repositories?type=all
+        - generic [ref=e592]:
+          - generic [ref=e594]:
+            - link "People" [ref=e595] [cursor=pointer]:
+              - /url: /orgs/pages-themes/people
+              - heading "People" [level=4] [ref=e596]
+            - paragraph [ref=e597]: This organization has no public members. You must be a member to see who’s a part of this organization.
+          - generic [ref=e599]:
+            - heading "Top languages" [level=4] [ref=e600]
+            - link "SCSS" [ref=e601] [cursor=pointer]:
+              - /url: /orgs/pages-themes/repositories?language=scss&type=all
+              - generic [ref=e602]: SCSS
+            - link "JavaScript" [ref=e604] [cursor=pointer]:
+              - /url: /orgs/pages-themes/repositories?language=javascript&type=all
+              - generic [ref=e605]: JavaScript
+          - generic [ref=e608]:
+            - heading "Most used topics" [level=4] [ref=e610]
+            - generic [ref=e611]:
+              - link "github-pages" [ref=e612] [cursor=pointer]:
+                - /url: /search?q=topic%3Agithub-pages+org%3Apages-themes+fork%3Atrue&type=repositories
+              - link "jekyll" [ref=e613] [cursor=pointer]:
+                - /url: /search?q=topic%3Ajekyll+org%3Apages-themes+fork%3Atrue&type=repositories
+              - link "jekyll-theme" [ref=e614] [cursor=pointer]:
+                - /url: /search?q=topic%3Ajekyll-theme+org%3Apages-themes+fork%3Atrue&type=repositories
+  - contentinfo [ref=e615]:
+    - heading "Footer" [level=2] [ref=e616]
+    - generic [ref=e617]:
+      - generic [ref=e618]:
+        - link "GitHub Homepage" [ref=e619] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e620]
+        - generic [ref=e622]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e623]:
+        - heading "Footer navigation" [level=3] [ref=e624]
+        - list "Footer navigation" [ref=e625]:
+          - listitem [ref=e626]:
+            - link "Terms" [ref=e627] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e628]:
+            - link "Privacy" [ref=e629] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e630]:
+            - link "Security" [ref=e631] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e632]:
+            - link "Status" [ref=e633] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e634]:
+            - link "Community" [ref=e635] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e636]:
+            - link "Docs" [ref=e637] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e638]:
+            - link "Contact" [ref=e639] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e640]:
+            - button "Manage cookies" [ref=e642] [cursor=pointer]
+          - listitem [ref=e643]:
+            - button "Do not share my personal information" [ref=e645] [cursor=pointer]

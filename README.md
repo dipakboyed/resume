@@ -1,3 +1,8 @@
+---
+layout: single
+classes: wide
+---
+
 # Dipak Boyed
 
 [Email](mailto:diboyed@gmail.com) | [LinkedIn](https://linkedin.com/in/dipak-boyed) 

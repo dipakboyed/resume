@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content." [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - heading "Cayman theme" [level=1] [ref=e4]
+    - heading "Cayman is a clean, responsive theme for GitHub Pages." [level=2] [ref=e5]
+    - link "View on GitHub" [ref=e6] [cursor=pointer]:
+      - /url: https://github.com/pages-themes/cayman
+    - link "Download .zip" [ref=e7] [cursor=pointer]:
+      - /url: https://github.com/pages-themes/cayman/zipball/master
+    - link "Download .tar.gz" [ref=e8] [cursor=pointer]:
+      - /url: https://github.com/pages-themes/cayman/tarball/master
+  - main [ref=e9]:
+    - paragraph [ref=e10]:
+      - text: Text can be
+      - strong [ref=e11]: bold
+      - text: ","
+      - emphasis [ref=e12]: italic
+      - text: ", or"
+      - deletion [ref=e13]: strikethrough
+      - text: .
+    - paragraph [ref=e14]:
+      - link "Link to another page" [ref=e15] [cursor=pointer]:
+        - /url: ./another-page.html
+      - text: .
+    - paragraph [ref=e16]: There should be whitespace between paragraphs.
+    - paragraph [ref=e17]: There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+    - heading "Header 1" [level=1] [ref=e18]
+    - paragraph [ref=e19]: This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+    - heading "Header 2" [level=2] [ref=e20]
+    - blockquote [ref=e21]:
+      - paragraph [ref=e22]: This is a blockquote following a header.
+      - paragraph [ref=e23]: When something is important enough, you do it even if the odds are not in your favor.
+    - heading "Header 3" [level=3] [ref=e24]
+    - code [ref=e28]: "// Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; }"
+    - code [ref=e32]: "# Ruby code with syntax highlighting GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end"
+    - heading "Header 4" [level=4] [ref=e33]
+    - list [ref=e34]:
+      - listitem [ref=e35]: This is an unordered list following a header.
+      - listitem [ref=e36]: This is an unordered list following a header.
+      - listitem [ref=e37]: This is an unordered list following a header.
+    - heading "Header 5" [level=5] [ref=e38]
+    - list [ref=e39]:
+      - listitem [ref=e40]: This is an ordered list following a header.
+      - listitem [ref=e41]: This is an ordered list following a header.
+      - listitem [ref=e42]: This is an ordered list following a header.
+    - heading "Header 6" [level=6] [ref=e43]
+    - table [ref=e44]:
+      - rowgroup [ref=e45]:
+        - row "head1 head two three" [ref=e46]:
+          - columnheader "head1" [ref=e47]
+          - columnheader "head two" [ref=e48]
+          - columnheader "three" [ref=e49]
+      - rowgroup [ref=e50]:
+        - row "ok good swedish fish nice" [ref=e51]:
+          - cell "ok" [ref=e52]
+          - cell "good swedish fish" [ref=e53]
+          - cell "nice" [ref=e54]
+        - row "out of stock good and plenty nice" [ref=e55]:
+          - cell "out of stock" [ref=e56]
+          - cell "good and plenty" [ref=e57]
+          - cell "nice" [ref=e58]
+        - row "ok good oreos hmm" [ref=e59]:
+          - cell "ok" [ref=e60]
+          - cell "good oreos" [ref=e61]:
+            - text: good
+            - code [ref=e62]: oreos
+          - cell "hmm" [ref=e63]
+        - row "ok good zoute drop yumm" [ref=e64]:
+          - cell "ok" [ref=e65]
+          - cell "good zoute drop" [ref=e66]:
+            - text: good
+            - code [ref=e67]: zoute
+            - text: drop
+          - cell "yumm" [ref=e68]
+    - heading "There’s a horizontal rule below this." [level=3] [ref=e69]
+    - separator [ref=e70]
+    - heading "Here is an unordered list:" [level=3] [ref=e71]
+    - list [ref=e72]:
+      - listitem [ref=e73]: Item foo
+      - listitem [ref=e74]: Item bar
+      - listitem [ref=e75]: Item baz
+      - listitem [ref=e76]: Item zip
+    - heading "And an ordered list:" [level=3] [ref=e77]
+    - list [ref=e78]:
+      - listitem [ref=e79]: Item one
+      - listitem [ref=e80]: Item two
+      - listitem [ref=e81]: Item three
+      - listitem [ref=e82]: Item four
+    - heading "And a nested list:" [level=3] [ref=e83]
+    - list [ref=e84]:
+      - listitem [ref=e85]:
+        - text: level 1 item
+        - list [ref=e86]:
+          - listitem [ref=e87]: level 2 item
+          - listitem [ref=e88]:
+            - text: level 2 item
+            - list [ref=e89]:
+              - listitem [ref=e90]: level 3 item
+              - listitem [ref=e91]: level 3 item
+      - listitem [ref=e92]:
+        - text: level 1 item
+        - list [ref=e93]:
+          - listitem [ref=e94]: level 2 item
+          - listitem [ref=e95]: level 2 item
+          - listitem [ref=e96]: level 2 item
+      - listitem [ref=e97]:
+        - text: level 1 item
+        - list [ref=e98]:
+          - listitem [ref=e99]: level 2 item
+          - listitem [ref=e100]: level 2 item
+      - listitem [ref=e101]: level 1 item
+    - heading "Small image" [level=3] [ref=e102]
+    - paragraph [ref=e103]:
+      - img "Octocat" [ref=e104]
+    - heading "Large image" [level=3] [ref=e105]
+    - paragraph [ref=e106]:
+      - img "Branching" [ref=e107]
+    - heading "Definition lists can be used with HTML syntax." [level=3] [ref=e108]
+    - generic [ref=e109]:
+      - term [ref=e110]: Name
+      - definition [ref=e111]: Godzilla
+      - term [ref=e112]: Born
+      - definition [ref=e113]: "1952"
+      - term [ref=e114]: Birthplace
+      - definition [ref=e115]: Japan
+      - term [ref=e116]: Color
+      - definition [ref=e117]: Green
+    - code [ref=e121]: Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+    - code [ref=e125]: The final element.
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - link "cayman" [ref=e128] [cursor=pointer]:
+          - /url: https://github.com/pages-themes/cayman
+        - text: is maintained by
+        - link "pages-themes" [ref=e129] [cursor=pointer]:
+          - /url: https://github.com/pages-themes
+        - text: .
+      - generic [ref=e130]:
+        - text: This page was generated by
+        - link "GitHub Pages" [ref=e131] [cursor=pointer]:
+          - /url: https://pages.github.com
+        - text: .

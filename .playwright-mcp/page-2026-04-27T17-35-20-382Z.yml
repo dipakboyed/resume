@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - heading "Minimal theme" [level=1] [ref=e3]:
+        - link "Minimal theme" [ref=e4] [cursor=pointer]:
+          - /url: https://pages-themes.github.io/minimal/
+      - img "Logo" [ref=e5]
+      - paragraph [ref=e6]: Minimal is a theme for GitHub Pages.
+      - paragraph [ref=e7]:
+        - link "View the Project on GitHub pages-themes/minimal" [ref=e8] [cursor=pointer]:
+          - /url: https://github.com/pages-themes/minimal
+          - text: View the Project on GitHub
+          - generic [ref=e9]: pages-themes/minimal
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Download ZIP File" [ref=e12] [cursor=pointer]:
+            - /url: https://github.com/pages-themes/minimal/zipball/master
+            - text: Download
+            - strong [ref=e13]: ZIP File
+        - listitem [ref=e14]:
+          - link "Download TAR Ball" [ref=e15] [cursor=pointer]:
+            - /url: https://github.com/pages-themes/minimal/tarball/master
+            - text: Download
+            - strong [ref=e16]: TAR Ball
+        - listitem [ref=e17]:
+          - link "View On GitHub" [ref=e18] [cursor=pointer]:
+            - /url: https://github.com/pages-themes/minimal
+            - text: View On
+            - strong [ref=e19]: GitHub
+    - generic [ref=e20]:
+      - paragraph [ref=e21]:
+        - text: Text can be
+        - strong [ref=e22]: bold
+        - text: ","
+        - emphasis [ref=e23]: italic
+        - text: ", or"
+        - deletion [ref=e24]: strikethrough
+        - text: .
+      - paragraph [ref=e25]:
+        - link "Link to another page" [ref=e26] [cursor=pointer]:
+          - /url: ./another-page.html
+        - text: .
+      - paragraph [ref=e27]: There should be whitespace between paragraphs.
+      - paragraph [ref=e28]: There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+      - heading "Header 1" [level=1] [ref=e29]
+      - paragraph [ref=e30]: This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+      - heading "Header 2" [level=2] [ref=e31]
+      - blockquote [ref=e32]:
+        - paragraph [ref=e33]: This is a blockquote following a header.
+        - paragraph [ref=e34]: When something is important enough, you do it even if the odds are not in your favor.
+      - heading "Header 3" [level=3] [ref=e35]
+      - code [ref=e39]: "// Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; }"
+      - code [ref=e43]: "# Ruby code with syntax highlighting GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end"
+      - heading "Header 4" [level=4] [ref=e44]
+      - list [ref=e45]:
+        - listitem [ref=e46]: This is an unordered list following a header.
+        - listitem [ref=e47]: This is an unordered list following a header.
+        - listitem [ref=e48]: This is an unordered list following a header.
+      - heading "Header 5" [level=5] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e51]: This is an ordered list following a header.
+        - listitem [ref=e52]: This is an ordered list following a header.
+        - listitem [ref=e53]: This is an ordered list following a header.
+      - heading "Header 6" [level=6] [ref=e54]
+      - table [ref=e55]:
+        - rowgroup [ref=e56]:
+          - row "head1 head two three" [ref=e57]:
+            - columnheader "head1" [ref=e58]
+            - columnheader "head two" [ref=e59]
+            - columnheader "three" [ref=e60]
+        - rowgroup [ref=e61]:
+          - row "ok good swedish fish nice" [ref=e62]:
+            - cell "ok" [ref=e63]
+            - cell "good swedish fish" [ref=e64]
+            - cell "nice" [ref=e65]
+          - row "out of stock good and plenty nice" [ref=e66]:
+            - cell "out of stock" [ref=e67]
+            - cell "good and plenty" [ref=e68]
+            - cell "nice" [ref=e69]
+          - row "ok good oreos hmm" [ref=e70]:
+            - cell "ok" [ref=e71]
+            - cell "good oreos" [ref=e72]:
+              - text: good
+              - code [ref=e73]: oreos
+            - cell "hmm" [ref=e74]
+          - row "ok good zoute drop yumm" [ref=e75]:
+            - cell "ok" [ref=e76]
+            - cell "good zoute drop" [ref=e77]:
+              - text: good
+              - code [ref=e78]: zoute
+              - text: drop
+            - cell "yumm" [ref=e79]
+      - heading "There’s a horizontal rule below this." [level=3] [ref=e80]
+      - separator [ref=e81]
+      - heading "Here is an unordered list:" [level=3] [ref=e82]
+      - list [ref=e83]:
+        - listitem [ref=e84]: Item foo
+        - listitem [ref=e85]: Item bar
+        - listitem [ref=e86]: Item baz
+        - listitem [ref=e87]: Item zip
+      - heading "And an ordered list:" [level=3] [ref=e88]
+      - list [ref=e89]:
+        - listitem [ref=e90]: Item one
+        - listitem [ref=e91]: Item two
+        - listitem [ref=e92]: Item three
+        - listitem [ref=e93]: Item four
+      - heading "And a nested list:" [level=3] [ref=e94]
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - text: level 1 item
+          - list [ref=e97]:
+            - listitem [ref=e98]: level 2 item
+            - listitem [ref=e99]:
+              - text: level 2 item
+              - list [ref=e100]:
+                - listitem [ref=e101]: level 3 item
+                - listitem [ref=e102]: level 3 item
+        - listitem [ref=e103]:
+          - text: level 1 item
+          - list [ref=e104]:
+            - listitem [ref=e105]: level 2 item
+            - listitem [ref=e106]: level 2 item
+            - listitem [ref=e107]: level 2 item
+        - listitem [ref=e108]:
+          - text: level 1 item
+          - list [ref=e109]:
+            - listitem [ref=e110]: level 2 item
+            - listitem [ref=e111]: level 2 item
+        - listitem [ref=e112]: level 1 item
+      - heading "Small image" [level=3] [ref=e113]
+      - paragraph [ref=e114]:
+        - img "Octocat" [ref=e115]
+      - heading "Large image" [level=3] [ref=e116]
+      - paragraph [ref=e117]:
+        - img "Branching" [ref=e118]
+      - heading "Definition lists can be used with HTML syntax." [level=3] [ref=e119]
+      - generic [ref=e120]:
+        - term [ref=e121]: Name
+        - definition [ref=e122]: Godzilla
+        - term [ref=e123]: Born
+        - definition [ref=e124]: "1952"
+        - term [ref=e125]: Birthplace
+        - definition [ref=e126]: Japan
+        - term [ref=e127]: Color
+        - definition [ref=e128]: Green
+      - code [ref=e132]: Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+      - code [ref=e136]: The final element.
+    - contentinfo [ref=e137]:
+      - paragraph [ref=e138]:
+        - text: This project is maintained by
+        - link "pages-themes" [ref=e139] [cursor=pointer]:
+          - /url: https://github.com/pages-themes
+      - paragraph [ref=e140]:
+        - generic [ref=e141]:
+          - text: Hosted on GitHub Pages — Theme by
+          - link "orderedlist" [ref=e142] [cursor=pointer]:
+            - /url: https://github.com/orderedlist
