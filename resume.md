@@ -7,10 +7,10 @@ Location: Bellevue, WA
 
 ## Summary
 
-Data-driven engineering leader with 20+ years scaling global teams of SWE, SRE, TPMs 
-at Microsoft and Amazon. Building AI-first platforms — from production agentic systems and 
+Data-driven engineering leader experienced in scaling multi-disciplinary teams at 
+Microsoft and Amazon. Building AI-first platforms — from production agentic systems and 
 LLM-powered toolkits to developer experience at scale. Proven track record in enterprise 
-cloud platforms, distributed systems, operational efficiency and leading fullstack orgs serving 
+cloud platforms, distributed systems, operational efficiency and leading fullstack verticals serving 
 millions of users
 
 ---
@@ -21,10 +21,10 @@ millions of users
 _BPO AI Toolkit, Engingeering Enablement and Operations_
 _Redmond, WA | Aug 2025 – Now_
 
-- Founded BPO AI Toolkit team to centralize agentic development and enablement across EVP's charter spanning Operations, Sales, Learning & Commerce 
-- Shipped reusable AI agents (DocumentIQ, VideoIQ, Skills Evaluator, Rules Engine) targeting 50% reduction in human-touch for business operations
+- Founded a v1, BPO AI Toolkit team for rapid agentic development and enablement across EVP's charter spanning Operations, Sales, Learning & Commerce 
+- Shipped reusable AI agents (DocumentIQ, VideoIQ, Skills Evaluator, Rules Engine) which achieved 50% reduction in human-touch for business operations
 - Defined CRM-based product direction for Agentic UI optimizing frontline agent workflows with situational awareness, next-action routing
-- Drove GitHub Copilot adoption as a managed engineering KPI to double productivity.
+- Drove GitHub Copilot adoption as a managed engineering KPI to double productivity
 - Built Agency MCP plugins, Copilot CLI agents and AI-assisted PR review tooling adopted across CFP
 - Expanded BPO toolkit to 2 new LOBs and launched Azure Marketplace public offer packaging for VideoIQ, DocumentIQ and Skills AI
 - Leadership culture sponsor: Asians employee group, mid-career mentoring ring leader
@@ -51,7 +51,6 @@ _Redmond, WA | Dec 2017 – Mar 2024_
 - Developed flagship education apps for Microsoft Teams (Azure services, ReactJs Web + mobile apps, Graph API) 
 - Built Inclusive classroom tools (Immersive Reader, Azure Cognitive Service, Reading Progress)
 - Panel member for startup acquisition, Flipgrid by Microsoft
-- Sponsor for improving employee signals, learning culture and AI/ML training for VP
 - Managed $5M annual vendor staffing budget optimizing resource allocation resulting in a 25% reduction in operation costs
 
 ### Software Engineering Manager — Amazon
@@ -72,7 +71,6 @@ _Redmond, WA | 2004 – 2016_
 Services, Developer Productivity orgs. Key projects include:
 - Conceptualized, developed and launched OneNote Importer for Evernote
 - Launched OneNote RESTful APIs, Azure services for Developer Ecosystem
-- Hired for and grew a v1 SDET team. Shipped from 0 to 1
 - Released Office Lens camera augmentation app with OneNote support
 - Ran cross-org setup and licensing verification for Office 365
 - Built of .Net test automation framework used by Office and SharePoint
