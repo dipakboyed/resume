@@ -103,6 +103,7 @@ _The University of Texas, Austin_
 - DevOps: Infrastructure as Code, CI/CD, pipelines, Github actions
 - Programming & Development: C#, Java, C++, JavaScript, Python, Typescript, ReactJS, Web APIs, Full-Stack Development, Bicep, Yaml
 - Tools & Frameworks: Git, Playwright, Jest, Test Automation Frameworks
+
 ---
 
 ## Patents/ Publications
