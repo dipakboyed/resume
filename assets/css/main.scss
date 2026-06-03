@@ -3,9 +3,6 @@
 
 @import "minimal";
 
-$sidebar-width: 280px;
-$sidebar-gutter: 40px;
-
 .wrapper {
   width: 95%;
   max-width: 1600px;
@@ -13,24 +10,14 @@ $sidebar-gutter: 40px;
 }
 
 header,
+section,
 footer {
-  width: $sidebar-width;
+  width: auto;
+  float: none;
+  position: static;
 }
 
-section {
-  width: calc(100% - #{$sidebar-width + $sidebar-gutter});
-  float: right;
-}
-
-@media screen and (max-width: 960px) {
-  .wrapper {
-    width: auto;
-    max-width: none;
-  }
-  header,
-  footer,
-  section {
-    width: auto;
-    float: none;
-  }
+footer {
+  bottom: auto;
+  margin-top: 40px;
 }
