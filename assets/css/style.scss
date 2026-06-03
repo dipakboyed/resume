@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  width: 95%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header,
+section,
+footer {
+  width: auto;
+  float: none;
+  position: static;
+  padding-right: 0;
+  bottom: auto;
+}
+
+footer {
+  margin-top: 40px;
+}
