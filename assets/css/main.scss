@@ -3,22 +3,34 @@
 
 @import "minimal";
 
+$sidebar-width: 280px;
+$sidebar-gutter: 40px;
+
 .wrapper {
-  width: 90%;
-  max-width: 1200px;
+  width: 95%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  width: $sidebar-width;
 }
 
 section {
-  width: calc(100% - 300px);
+  width: calc(100% - #{$sidebar-width + $sidebar-gutter});
   float: right;
 }
 
 @media screen and (max-width: 960px) {
-  section {
-    width: 100%;
-    float: none;
-  }
   .wrapper {
-    width: 95%;
+    width: auto;
+    max-width: none;
+  }
+  header,
+  footer,
+  section {
+    width: auto;
+    float: none;
   }
 }
