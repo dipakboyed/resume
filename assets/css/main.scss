@@ -4,20 +4,21 @@
 @import "minimal";
 
 .wrapper {
-  width: 95%;
-  max-width: 1600px;
-  margin: 0 auto;
+  width: 95% !important;
+  max-width: 1600px !important;
+  margin: 0 auto !important;
 }
 
 header,
 section,
 footer {
-  width: auto;
-  float: none;
-  position: static;
+  width: auto !important;
+  float: none !important;
+  position: static !important;
+  padding-right: 0 !important;
 }
 
 footer {
-  bottom: auto;
-  margin-top: 40px;
+  bottom: auto !important;
+  margin-top: 40px !important;
 }
