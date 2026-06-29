@@ -9,6 +9,20 @@ Location: Bellevue, WA
 
 ---
 
+## Visual Resume
+
+<p align="center">
+  <a href="assets/img/worklife-whiteboard-hd.png" target="_blank" rel="noopener" title="Open full-size (HD)">
+    <img src="assets/img/worklife-whiteboard-web.jpg"
+         alt="Data-driven engineering leader experienced in scaling multi-disciplinary teams at Microsoft and Amazon. Building AI-first platforms — from production agentic systems and LLM-powered toolkits to developer experience at scale. Proven track record in enterprise cloud platforms, distributed systems, operational efficiency and leading fullstack verticals serving millions of users."
+         width="1536" height="1024"
+         style="width:100%; max-width:1536px; height:auto; border:1px solid #e1e4e8; border-radius:6px;" />
+  </a>
+</p>
+<p align="center"><em>A visual snapshot of my work life — what I do, who I work with, my role, values and impact. Click to open full size.</em></p>
+
+---
+
 ## Summary
 
 Data-driven engineering leader experienced in scaling multi-disciplinary teams at 
