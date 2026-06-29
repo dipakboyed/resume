@@ -2,14 +2,8 @@
 layout: default
 ---
 
-# Dipak Boyed
-
-[Email](mailto:diboyed@gmail.com) | [LinkedIn](https://linkedin.com/in/dipak-boyed) 
-Location: Bellevue, WA
-
----
-
-## Visual Resume
+<details open>
+<summary style="font-size:1.5em; font-weight:600; cursor:pointer; margin-bottom:0.5em;">Visual Resume</summary>
 
 <p align="center">
   <a href="assets/img/worklife-whiteboard-hd.png" target="_blank" rel="noopener" title="Open full-size (HD)">
@@ -20,6 +14,8 @@ Location: Bellevue, WA
   </a>
 </p>
 <p align="center"><em>A visual snapshot of my work life — what I do, who I work with, my role, values and impact. Click to open full size.</em></p>
+
+</details>
 
 ---
 
