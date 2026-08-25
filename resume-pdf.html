@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /resume-pdf.html
+sitemap: false
+---
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="{{ site.data.resume.name | escape }}">
+    <meta name="description" content="Resume for {{ site.data.resume.name | escape }}">
+    <meta name="robots" content="noindex, nofollow">
+    <title>{{ site.data.resume.name | escape }} - Resume</title>
+    <link rel="stylesheet" href="assets/css/resume-print.css">
+  </head>
+  <body>
+    <main>
+      {% include resume-content.html document_heading=true %}
+    </main>
+  </body>
+</html>

@@ -22,3 +22,53 @@ footer {
 footer {
   margin-top: 40px;
 }
+
+.resume-download {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.resume-header {
+  margin-bottom: 1.5rem;
+}
+
+.resume-headline {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.skills-list div {
+  margin-bottom: 0.5rem;
+}
+
+.skills-list dt {
+  font-weight: 600;
+}
+
+.skills-list dd {
+  margin-left: 0;
+}
+
+.experience-entry {
+  margin-bottom: 1.5rem;
+}
+
+.role-details {
+  margin-top: -0.5rem;
+}
+
+.education-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}

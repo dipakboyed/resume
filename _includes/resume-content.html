@@ -1,0 +1,110 @@
+{% assign resume = site.data.resume %}
+<article class="resume" aria-labelledby="resume-name">
+  <header class="resume-header">
+    {% if include.document_heading %}
+    <h1 id="resume-name">{{ resume.name | escape }}</h1>
+    {% else %}
+    <h2 id="resume-name">{{ resume.name | escape }}</h2>
+    {% endif %}
+    <p class="resume-headline">{{ resume.headline | escape }}</p>
+    <ul class="contact-list" aria-label="Contact details">
+      {% for contact in resume.contacts %}
+      <li><a href="{{ contact.url | escape }}">{{ contact.label | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </header>
+
+  <section aria-labelledby="summary-heading">
+    {% if include.document_heading %}
+    <h2 id="summary-heading">Executive Summary</h2>
+    {% else %}
+    <h3 id="summary-heading">Executive Summary</h3>
+    {% endif %}
+    <p>{{ resume.summary | escape }}</p>
+  </section>
+
+  <section aria-labelledby="skills-heading">
+    {% if include.document_heading %}
+    <h2 id="skills-heading">Core Skills</h2>
+    {% else %}
+    <h3 id="skills-heading">Core Skills</h3>
+    {% endif %}
+    <dl class="skills-list">
+      {% for skill in resume.skills %}
+      <div>
+        <dt>{{ skill.category | escape }}</dt>
+        <dd>{{ skill.details | escape }}</dd>
+      </div>
+      {% endfor %}
+    </dl>
+  </section>
+
+  <section aria-labelledby="experience-heading">
+    {% if include.document_heading %}
+    <h2 id="experience-heading">Professional Experience</h2>
+    {% else %}
+    <h3 id="experience-heading">Professional Experience</h3>
+    {% endif %}
+    {% for role in resume.experience %}
+    <section class="experience-entry{% if role.pdf_page_break_before %} pdf-page-break-before{% endif %}" aria-labelledby="role-{{ forloop.index }}">
+      {% if include.document_heading %}
+      <h3 id="role-{{ forloop.index }}">{{ role.title | escape }}, {{ role.employer | escape }}</h3>
+      {% else %}
+      <h4 id="role-{{ forloop.index }}">{{ role.title | escape }}, {{ role.employer | escape }}</h4>
+      {% endif %}
+      <p class="role-details">
+        <strong>{{ role.organization | escape }}</strong>
+        <span aria-hidden="true"> | </span>
+        <span>{{ role.location | escape }}</span>
+        <span aria-hidden="true"> | </span>
+        <span>{{ role.dates | escape }}</span>
+      </p>
+      <ul>
+        {% for bullet in role.bullets %}
+        <li>{{ bullet | escape }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="education-heading">
+    {% if include.document_heading %}
+    <h2 id="education-heading">Education and Certifications</h2>
+    {% else %}
+    <h3 id="education-heading">Education and Certifications</h3>
+    {% endif %}
+    <ul class="education-list">
+      {% for education in resume.education %}
+      <li>
+        <strong>{{ education.degree | escape }}</strong>
+        <span aria-hidden="true"> | </span>
+        <span>{{ education.institution | escape }}</span>
+        <span aria-hidden="true"> | </span>
+        <span>{{ education.year }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="certifications">
+      <strong>Selected certifications:</strong>
+      {% for certification in resume.certifications %}
+        {{ certification.name | escape }}, {{ certification.year }}{% unless forloop.last %};{% endunless %}
+      {% endfor %}
+    </p>
+  </section>
+
+  <section aria-labelledby="publications-heading">
+    {% if include.document_heading %}
+    <h2 id="publications-heading">Patents and Selected Publication</h2>
+    {% else %}
+    <h3 id="publications-heading">Patents and Selected Publication</h3>
+    {% endif %}
+    <ul>
+      {% for publication in resume.publications %}
+      <li>
+        {{ publication.type | escape }}, "{{ publication.title | escape }}"{% if publication.collaborators %}, with {{ publication.collaborators | escape }}{% endif %}{% if publication.venue %}, {{ publication.venue | escape }}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

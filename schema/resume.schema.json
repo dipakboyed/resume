@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dipakboyed.github.io/resume/schema/resume.schema.json",
+  "title": "Resume data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "headline",
+    "contacts",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications",
+    "publications"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "headline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "url"],
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40
+    },
+    "skills": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["category", "details"],
+        "properties": {
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "details": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "employer",
+          "organization",
+          "location",
+          "dates",
+          "bullets"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "employer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "organization": {
+            "type": "string",
+            "minLength": 1
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dates": {
+            "type": "string",
+            "oneOf": [
+              {
+                "pattern": "^(January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{4} - ((January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{4}|Present)$"
+              },
+              {
+                "pattern": "^[0-9]{4} - [0-9]{4}$"
+              }
+            ]
+          },
+          "pdf_page_break_before": {
+            "type": "boolean"
+          },
+          "bullets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["degree", "institution", "year"],
+        "properties": {
+          "degree": {
+            "type": "string",
+            "minLength": 1
+          },
+          "institution": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2100
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "year"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2100
+          }
+        }
+      }
+    },
+    "publications": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "title"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "collaborators": {
+            "type": "string",
+            "minLength": 1
+          },
+          "venue": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

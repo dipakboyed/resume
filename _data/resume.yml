@@ -1,0 +1,96 @@
+name: Dipak Boyed
+headline: Engineering Leader | AI Platforms | Enterprise Cloud
+contacts:
+  - label: github.com/dipakboyed
+    url: https://github.com/dipakboyed
+  - label: dipakboyed.github.io/resume
+    url: https://dipakboyed.github.io/resume/
+summary: >-
+  Data-driven engineering leader with experience at Microsoft and Amazon.
+  Scales multidisciplinary teams and delivers AI platforms, enterprise cloud
+  services, distributed systems, and developer tools for millions of users.
+skills:
+  - category: Leadership
+    details: Global engineering organizations, executive communication, cross-functional delivery, vendor and budget ownership
+  - category: AI and platforms
+    details: Agentic AI, LLM integration, Microsoft Agent Framework, Foundry, Dynamics 365, Dataverse, PowerFx
+  - category: Cloud and data
+    details: Azure, AWS, SAP, Oracle, microservices, resiliency, Kusto, Azure Data Factory, Synapse, ETL
+  - category: Engineering
+    details: C#, Java, C++, Python, TypeScript, React, APIs, infrastructure as code, CI/CD, Playwright, Jest
+experience:
+  - title: Director of Engineering
+    employer: Microsoft
+    organization: BPO AI Toolkit, Engineering Enablement and Operations
+    location: Redmond, WA
+    dates: August 2025 - Present
+    bullets:
+      - Founded the BPO AI Toolkit team, a reusable agent platform for AI-first business operations across Operations, Sales, Learning, and Commerce.
+      - Shipped DocumentIQ, VideoIQ, Skills Evaluator, and a PowerFx rules engine, with over 50% less human touch for prioritized BPO tasks.
+      - Scaled the toolkit to process over 130,000 licensing and revenue cases and 115,000 documents each quarter.
+      - Cut audit cycle time by 50% and automated about 65% of enterprise agreement submissions.
+      - Built an AI pull request review service and a DRI agent that reduces live-site root cause analysis from hours to minutes.
+  - title: Director of Engineering
+    employer: Microsoft
+    organization: ERP Platform and Data Services, Commerce Financial Platform
+    location: Redmond, WA
+    dates: March 2024 - August 2025
+    bullets:
+      - Directed five platform teams with over 100 engineers, site reliability engineers, and 200 vendors across Azure, Microsoft 365, and Nuance.
+      - Migrated the SAP platform to S/4HANA and RISE, and modernized ERP data pipelines for the Finance Data Lake.
+      - Reduced annual Azure spend by 30% for a transaction platform that processes over $6 billion in invoices with 99.99% reliability.
+      - Simplified Azure enterprise commitment contracts that support $80 billion in new commitments each year.
+  - title: Group Engineering Manager
+    employer: Microsoft
+    organization: Education Experiences, Microsoft 365 and Teams
+    location: Redmond, WA
+    dates: December 2017 - March 2024
+    bullets:
+      - Led software, data, and machine learning operations teams in the United States, Canada, and Serbia for products with over 100 million monthly users.
+      - Launched generative AI features for teachers and Learning Accelerators that personalize student learning.
+      - Delivered Microsoft Teams education applications, Immersive Reader, Reading Progress, and other inclusive classroom tools.
+      - Managed a $5 million annual vendor budget and reduced operating costs by 25%.
+  - title: Software Engineering Manager
+    employer: Amazon
+    organization: Last Mile Technology, Transportation and Logistics
+    location: Seattle, WA
+    dates: January 2016 - December 2017
+    pdf_page_break_before: true
+    bullets:
+      - Owned four Tier 1 AWS services and web applications for last-mile delivery tracking.
+      - Built a Prime Now exception management platform that automated delivery assignments and improved efficiency by 33%.
+      - Migrated a Tier 1 Oracle service to Amazon DynamoDB and Elasticsearch.
+  - title: Principal Software Engineer
+    employer: Microsoft
+    organization: OneNote, Developer Experiences, Licensing, and Office
+    location: Redmond, WA
+    dates: 2004 - 2016
+    bullets:
+      - Led engineering work across OneNote, Office services, developer productivity, setup, and licensing.
+      - Launched the OneNote Importer for Evernote, OneNote REST APIs, and Office Lens support for OneNote.
+      - Built a .NET test automation framework used by Office and SharePoint.
+education:
+  - degree: Master of Science (M.S.) in Computer Science
+    institution: University of Washington, Seattle
+    year: 2008
+  - degree: Bachelor of Science (B.S.) with Honors in Computer Science and Physics
+    institution: The University of Texas at Austin
+    year: 2004
+certifications:
+  - name: Implementing Agentic AI Features
+    year: 2025
+  - name: Databricks Large Language Models
+    year: 2023
+  - name: Machine Learning Specialization
+    year: 2022
+publications:
+  - type: Patent pending
+    title: Rubric Engine(s) for Generation of Assessment Frameworks
+    collaborators: C. Sheets et al.
+  - type: US Patent 7,996,518
+    title: Detecting Machine Utilization Activity
+  - type: US Patent 7,673,178
+    title: Break and Optional Hold on Failure
+  - type: Publication
+    title: Experimenting in Enterprise and EDU Settings
+    venue: MLADS Conference

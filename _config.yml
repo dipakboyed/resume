@@ -3,3 +3,9 @@ plugins:
   - jekyll-remote-theme
 title: Dipak Boyed
 description: Engineering Leader | AI Platforms | Microsoft
+baseurl: /resume
+exclude:
+  - docs
+  - scripts
+  - schema
+  - requirements-resume.txt
