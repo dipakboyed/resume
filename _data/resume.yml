@@ -26,10 +26,11 @@ experience:
     dates: August 2025 - Present
     bullets:
       - Founded the BPO AI Toolkit team, a reusable agent platform for AI-first business operations across Operations, Sales, Learning, and Commerce.
-      - Shipped DocumentIQ, VideoIQ, Skills Evaluator, and a PowerFx rules engine, with over 50% less human touch for prioritized BPO tasks.
-      - Scaled the toolkit to process over 130,000 licensing and revenue cases and 115,000 documents each quarter.
-      - Cut audit cycle time by 50% and automated about 65% of enterprise agreement submissions.
-      - Built an AI pull request review service and a DRI agent that reduces live-site root cause analysis from hours to minutes.
+      - Shipped DocumentIQ, VideoIQ, Skills Evaluator, and a PowerFx rules engine, with over 50% less human touch and 26% automation coverage for prioritized BPO tasks.
+      - Scaled the toolkit to process over 130,000 licensing and revenue cases and 115,000 documents each quarter, cutting audit cycle time by 50%.
+      - Automated about 65% of enterprise agreement submissions and launched DocumentIQ and VideoIQ as public Azure Marketplace offers.
+      - Drove 89% dedicated GitHub Copilot usage and reduced pull request completion time by 55% through telemetry and review automation.
+      - Built an AI pull request review service and a DRI agent that runs 45 KQL queries and reduces live-site root cause analysis from hours to minutes.
   - title: Director of Engineering
     employer: Microsoft
     organization: ERP Platform and Data Services, Commerce Financial Platform
@@ -40,6 +41,7 @@ experience:
       - Migrated the SAP platform to S/4HANA and RISE, and modernized ERP data pipelines for the Finance Data Lake.
       - Reduced annual Azure spend by 30% for a transaction platform that processes over $6 billion in invoices with 99.99% reliability.
       - Simplified Azure enterprise commitment contracts that support $80 billion in new commitments each year.
+      - Launched anomaly detection across SAP service lines and reduced time to detect by 75%.
   - title: Group Engineering Manager
     employer: Microsoft
     organization: Education Experiences, Microsoft 365 and Teams
