@@ -104,7 +104,7 @@ The current career scope supports a two-page executive resume. A one-page target
 - Tag paragraphs, lists, and links with semantic roles.
 - Preserve the DOM order as the PDF read order.
 - Meet a 4.5:1 contrast ratio for normal text.
-- Use at least 10.5-point body text as a project readability rule.
+- Use 10-point Carlito body text as the approved project readability rule.
 - Mark decorative elements as artifacts or omit them.
 - Add useful link text.
 - Include no information that depends only on color.
@@ -138,7 +138,7 @@ Use `{{ '/assets/Dipak-Boyed-Resume.pdf' | relative_url }}` for the public link.
 
 Pin the WeasyPrint, validation package, font, action, and veraPDF versions used by the workflow.
 
-Vendor one Open Font License font under `assets/fonts`. Include its license file and embed the font in the PDF.
+Vendor Carlito under `assets/fonts`. Include its Open Font License file and embed the font in the PDF.
 
 ### GitHub Actions workflow
 
@@ -249,7 +249,7 @@ The manual review must confirm headings, lists, links, read order, pronunciation
 
 Render each PDF page to an image after the semantic and extraction contracts pass.
 
-Reject clipped text, orphan headings, split role headers, hidden links, and body text below 10.5 points.
+Reject clipped text, orphan headings, split role headers, hidden links, and body text below 10 points.
 
 Use the approved draft as a review reference. Do not use a pixel-perfect snapshot as a blocking gate for normal content changes.
 
@@ -270,7 +270,7 @@ Use fewer bullets for older roles. Preserve metrics, scale, ownership, and busin
 
 Use black or near-black text on a white background. Use one restrained accent color only for headings or links.
 
-Use Source Sans 3 or Noto Sans. Vendor and embed the selected font.
+Use Carlito, an open metric-compatible substitute for Calibri. Vendor and embed Carlito.
 
 Use `font-variant-ligatures: none` and `hyphens: none`.
 

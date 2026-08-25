@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "Noto Sans";
+  font-family: "Carlito";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/NotoSans-Regular.ttf") format("truetype");
+  src: url("../fonts/Carlito-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Noto Sans";
+  font-family: "Carlito";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/NotoSans-Bold.ttf") format("truetype");
+  src: url("../fonts/Carlito-Bold.ttf") format("truetype");
 }
 
 @page {
@@ -19,11 +19,11 @@
 
 html {
   color: #111827;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 10.5pt;
+  font-family: "Carlito", Calibri, sans-serif;
+  font-size: 10pt;
   font-variant-ligatures: none;
   hyphens: none;
-  line-height: 1.28;
+  line-height: 1.25;
 }
 
 body {
