@@ -36,8 +36,8 @@ _Redmond, WA | Aug 2025 – Now_
 - Scaled toolkit to process 130K+ licensing/revenue cases and 115K+ documents per quarter, cutting audit cycle time by 50% and automating ~65% of enterprise agreement submissions
 - Launched DocumentIQ and VideoIQ as public Azure Marketplace offers with Skills Evaluator in public preview, extending distribution to Treasury, FinOps, Collections and other LOBs
 - Defined CRM-based Agentic UI product direction on Dynamics 365 — situational awareness, next-best-action routing, and Agent Assist evolution for frontline operators
-- Drove GitHub Copilot adoption as a managed engineering KPI: 89% dedicated usage (+13% YoY), 78% FTE adoption (+25%), 43% of engineers shipping AI-assisted PRs, enforced through VS Code telemetry gates and PR-level AI attribution
-- Built an AI PR review daemon that evaluates pull requests across 8 dimensions (correctness, security, performance, maintainability, etc.) in 30 seconds with cross-reviewer dedup and a Teams feedback loop; backed by 350+ unit tests and adopted across multiple CFP teams
+- Engineering Excellence: Drove GitHub Copilot adoption and PR p80 completion time as a managed engineering KPIs: 89% dedicated usage enforced through VS Code telemetry gates and PR-level AI attribution and reduced PR completion times by 55%.
+- Built a personalized AI PR review daemon that evaluates pull requests across 8 dimensions with cross-reviewer dedup and a Teams feedback loop
 - Established a Copilot CLI plugin marketplace with reusable Agency skills and agents (PR review, security scanning, Azure ops, onboarding, DRI/RCA, design doc generation) and standardized an MCP-based extensibility model across CFP
 - Shipped a production DRI agent that compresses live-site RCA from 3–4 hours to minutes — autoruns 45 KQL queries across Azure Monitor workspaces via MCP, traces failures into ADO source, and generates RCA docs
 
