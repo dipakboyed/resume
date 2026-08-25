@@ -54,6 +54,7 @@ jobs:
 
       - name: Generate tagged PDF/UA-1 resume
         run: |
+          sudo chown -R "$(id -u):$(id -g)" _site
           mkdir -p _site/assets
           python -m weasyprint \
             --pdf-variant pdf/ua-1 \
