@@ -55,7 +55,6 @@ experience:
     organization: Last Mile Technology, Transportation and Logistics
     location: Seattle, WA
     dates: January 2016 - December 2017
-    pdf_page_break_before: true
     bullets:
       - Owned four Tier 1 AWS services and web applications for last-mile delivery tracking.
       - Built a Prime Now exception management platform that automated delivery assignments and improved efficiency by 33%.

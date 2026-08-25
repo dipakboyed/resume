@@ -141,7 +141,3 @@ li {
   orphans: 2;
   widows: 2;
 }
-
-.pdf-page-break-before {
-  break-before: page;
-}

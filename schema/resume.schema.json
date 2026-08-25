@@ -109,9 +109,6 @@
               }
             ]
           },
-          "pdf_page_break_before": {
-            "type": "boolean"
-          },
           "bullets": {
             "type": "array",
             "minItems": 1,

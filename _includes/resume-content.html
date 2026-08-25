@@ -46,7 +46,7 @@
     <h3 id="experience-heading">Professional Experience</h3>
     {% endif %}
     {% for role in resume.experience %}
-    <section class="experience-entry{% if role.pdf_page_break_before %} pdf-page-break-before{% endif %}" aria-labelledby="role-{{ forloop.index }}">
+    <section class="experience-entry" aria-labelledby="role-{{ forloop.index }}">
       {% if include.document_heading %}
       <h3 id="role-{{ forloop.index }}">{{ role.title | escape }}, {{ role.employer | escape }}</h3>
       {% else %}
