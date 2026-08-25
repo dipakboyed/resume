@@ -9,7 +9,8 @@ if (!target) {
 
 const browser = await chromium.launch();
 try {
-  const page = await browser.newPage();
+  const context = await browser.newContext();
+  const page = await context.newPage();
   await page.emulateMedia({ media: "print" });
   await page.goto(target, { waitUntil: "networkidle" });
 
