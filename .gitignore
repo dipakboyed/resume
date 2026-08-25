@@ -1,3 +1,4 @@
 .playwright-mcp/
 _site/
 *.pdf
+node_modules/

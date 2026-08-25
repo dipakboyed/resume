@@ -1,0 +1,11 @@
+{
+  "name": "resume-pdf-validation",
+  "private": true,
+  "scripts": {
+    "test:a11y": "node scripts/check_pdf_html_accessibility.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "playwright": "1.62.1"
+  }
+}
