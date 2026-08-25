@@ -39,15 +39,14 @@ _Redmond, WA | Aug 2025 – Now_
 - Drove GitHub Copilot adoption as a managed engineering KPI: 89% dedicated usage (+13% YoY), 78% FTE adoption (+25%), 43% of engineers shipping AI-assisted PRs, enforced through VS Code telemetry gates and PR-level AI attribution
 - Built an AI PR review daemon that evaluates pull requests across 8 dimensions (correctness, security, performance, maintainability, etc.) in 30 seconds with cross-reviewer dedup and a Teams feedback loop; backed by 350+ unit tests and adopted across multiple CFP teams
 - Established a Copilot CLI plugin marketplace with reusable Agency skills and agents (PR review, security scanning, Azure ops, onboarding, DRI/RCA, design doc generation) and standardized an MCP-based extensibility model across CFP
-- Shipped a production DRI agent that compresses live-site RCA from 3–4 hours to minutes — auto-runs 45 KQL queries across Azure Monitor workspaces via MCP, traces failures into ADO source, and generates RCA docs
-- Leadership culture sponsor: Asians employee group, mid-career mentoring ring leader
+- Shipped a production DRI agent that compresses live-site RCA from 3–4 hours to minutes — autoruns 45 KQL queries across Azure Monitor workspaces via MCP, traces failures into ADO source, and generates RCA docs
 
 ### Director of Engineering — Microsoft
 _ERP Platform & Data Services, Commerce Financial Platform_
 _Redmond, WA | Mar 2024 – Aug 2025_
 
 - M3 Manager of 5 Platform teams of 100+ Backend software engineers, SREs and 200 vendors
-- Run SAP & Oracle based ERP Platform & Data Services teams for Azure, M365 & Nuance healthcare
+- Ran SAP & Oracle based ERP Platform & Data Services teams for Azure, M365 & Nuance healthcare
 - Modernizing ERP Data extraction and load pipelines using Azure Data factory into Finance Data Lake
 - Successfully migrated SAP platform to S4/HANA and RISE
 - Implemented Kaizen (continuous improvement), Gemba walks of Commerce transaction platform, processing over $6B in invoices with 99.99% reliability yielding 30% reduction in YoY Azure Spend
@@ -107,20 +106,21 @@ _The University of Texas, Austin_
 
 ## Skills
 
-- Leadership & Management: Effective Executive Communications, Manage cross-functional, globally distributed teams
+- Leadership & Management: Effective Executive Communications, Manage cross-functional, globally distributed teams, Coaching Staff SWE, Technical architects, Managing managers
 - Budgeting: Vendor & budget Ownership ($15M+ annually)
-- Cloud & Distributed Systems: Azure, AWS, SAP, Oracle, Microservices, Cloud Scalability, BCDR, Resiliency
+- Cloud & Distributed Systems: Azure, AWS, SAP, Oracle, Microservices, Cloud Scalability, BCDR, Resiliency, RAI, Security, Privacy, a11y
 - AI/ML: Generative AI, Agentic AI, LLM Integration, Prompt Engineering, MCP (Model Context Protocol), Microsoft Agent Framework (MAF), Microsoft Foundry, GitHub Copilot CLI/Agency, Agent Orchestration, Agent Evaluation & Governance
 - Business Platforms: Dynamics 365, Dataverse, PowerFx, Aspire (.NET), Azure Marketplace
 - Data Services: Data/ML Ops, Kusto, Azure Data Factory, Synapse, SQL Reporting, ETL
-- DevOps: Infrastructure as Code, CI/CD, pipelines, Github actions
-- Programming & Development: C#, Java, C++, JavaScript, Python, Typescript, ReactJS, Web APIs, Full-Stack Development, Bicep, Yaml
-- Tools & Frameworks: Git, Playwright, Jest, Test Automation Frameworks
+- DevOps: Infrastructure as Code, CI/CD, pipelines, Github actions, Bicep
+- Programming & Development: C#, Java, C++, JavaScript, Python, Typescript, ReactJS, Web APIs, Full-Stack Development, Yaml
+- Tools & Frameworks: Git, Playwright, Jest, FluentAssertions, Test Automation Frameworks
 
 ---
 
 ## Patents/ Publications
 
+- "Rubric Engine(s) for generation of assessment frameworks" with C. Sheets, et al., - patent pending
 - "Detecting Machine Utilization Activity" with A. Birnbaum, et al., - US Patent 7996518 B2
 - "Break and optional hold on failure" with C. Anderson, et al., - US Patent 7673178 B2
 - "Experimenting in Enterprise and EDU Settings": How an MS Product Addressed the Statistical Challenges and Started Running Tenant-Level A/B Tests, MLADS Conference
