@@ -26,7 +26,9 @@ FORBIDDEN_CODEPOINTS = tuple(chr(value) for value in range(0xFB00, 0xFB07)) + ("
 
 
 def normalize(value: str) -> str:
-    return " ".join(value.split()).casefold()
+    normalized = " ".join(value.split())
+    normalized = re.sub(r"\s+([,.;:%)])", r"\1", normalized)
+    return normalized.casefold()
 
 
 def load_data() -> dict[str, Any]:

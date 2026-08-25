@@ -141,3 +141,7 @@ li {
   orphans: 2;
   widows: 2;
 }
+
+.experience-entry {
+  break-inside: avoid;
+}
