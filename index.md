@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p class="resume-download">
-  <a href="{{ '/assets/Dipak-Boyed-Resume.pdf' | relative_url }}">Download the ATS-compatible PDF resume</a>
+  <a href="{{ '/assets/Dipak-Boyed-Resume.pdf' | relative_url }}">Resume (PDF)</a>
 </p>
 
 <details open>
