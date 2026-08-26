@@ -23,6 +23,10 @@ footer {
   margin-top: 40px;
 }
 
+.wrapper > header {
+  display: none;
+}
+
 .resume-download {
   font-size: 1.05rem;
   font-weight: 600;
