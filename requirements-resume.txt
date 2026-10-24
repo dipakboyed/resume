@@ -1,4 +1,4 @@
 jsonschema==4.26.0
-pypdf==6.19.0
+pypdf==6.21.2
 PyYAML==6.0.3
 WeasyPrint==70.0
