@@ -97,7 +97,8 @@ jobs:
 
       - name: Install veraPDF
         run: |
-          wget --quiet https://software.verapdf.org/releases/verapdf-installer.zip
+          wget --quiet --output-document=verapdf-installer.zip \
+            https://software.verapdf.org/releases/1.30/verapdf-greenfield-1.30.2-installer.zip
           echo "6cc6341cb1af644044054b81f00a6590a7918abb18f762243de115258bcad838  verapdf-installer.zip" \
             | sha256sum --check --strict
           unzip -q verapdf-installer.zip
